@@ -3,8 +3,8 @@
 ---
 ## What is GraphQL
  - A query language for APIs
+ - A specification, not a library or language
  - Developed by Facebook, and widely-adopted
- - A Specification, not a library or language
 ---
 
 ## Why Should You Use GraphQL?
@@ -24,14 +24,40 @@
  - Mutations
 
 +++
-### Schema Definition
+### Schemas and Types
+ - Scalar Types
+ - Object Types
+ - Query and Mutation Types
 
 +++
-### Resolvers
+#### Scalar Types
+ - Int
+ - Float
+ - String
+ - Boolean
+ - ID
 +++
+
+#### Object Types
+![EngineerSchema](/images/engineer-schema.png)
++++
+
+#### Query and Mutation Types
+![EngineerQueryMutation](/images/engineer-query-mutation.png)
++++
+
+### Resolvers
+![EngineerQueryResolver](/images/engineer-query-resolver.png)
++++
+
+![EngineerMutationResolver](/images/engineer-mutation-resolver.png)
+
+
 ### Queries
+![EngineerQuery](/images/engineer-query.png)
 +++
 ### Mutations
+![EngineerMutation](/images/engineer-mutation.png)
 ---
 ## To The Code!
 ---
