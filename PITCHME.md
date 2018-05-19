@@ -12,6 +12,7 @@
  - Rapid product development
  - An efficient alternative to REST
     - No more over or under fetching
+    
 +++
 ### REST vs. GraphQL
 +++
@@ -24,10 +25,18 @@
  - Mutations
 
 +++
+### GraphQLSchema
+- the core of a GraphQL Server
+    - schema definition
+    - resolvers
+
++++
+
 ### Schemas and Types
- - Scalar Types
- - Object Types
- - Query and Mutation Types
+- Schemas are defined in SDL
+- Scalar Types
+- Object Types
+- Query and Mutation Types 
 
 +++
 #### Scalar Types
@@ -51,7 +60,7 @@
 +++
 
 ![EngineerMutationResolver](/images/engineer-mutation-resolver.png)
-
++++
 
 ### Queries
 ![EngineerQuery](/images/engineer-query.png)
@@ -62,4 +71,10 @@
 ## To The Code!
 ---
 ## Resources
+- <https://www.graphql.com>
+- <https://www.howtographql.com>
+- <https://dev-blog.apollodata.com>
+- <https://blog.graph.cool>
+
+## Thank You!
 
