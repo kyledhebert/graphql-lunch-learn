@@ -5,14 +5,12 @@
  - A query language for APIs
  - Developed by Facebook, and widely-adopted
  - A Specification--not a library or language
-___
-
+---
 ## Why Should You Use GraphQL?
  - GraphQL APIs have strongly typed schemas
  - An efficient alternative to REST
     - No more over or under fetching
  - Rapid product development
----
 +++
 ### REST vs. GraphQL
 +++
