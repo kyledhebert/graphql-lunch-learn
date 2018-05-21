@@ -1,7 +1,7 @@
 ![GraphQL](/images/graphql-logo.jpg)
 
 ---
-## What is GraphQL
+## What is GraphQL?
  - A query language for APIs
  - A specification, not a library or language
  - Developed by Facebook, and widely-adopted
@@ -17,7 +17,7 @@
 
 ### REST vs. GraphQL
 
- - `/portfolio/{portfolioId}/polices`
+ - `/portfolio/{portfolioId}/policies`
  - `/policy/{policyId}/insured`
  - `/insured/{insuredId}/contacts`
 
@@ -46,7 +46,7 @@ query {
 ---
 
 ## Core Concepts
- - Schema Definition Language (SDL)
+ - Schema Definitions
  - Resolvers
  - Queries
  - Mutations
