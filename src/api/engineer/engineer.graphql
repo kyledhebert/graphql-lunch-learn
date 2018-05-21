@@ -1,22 +1,21 @@
 type Engineer {
-    id: ID
-    name: String
-    role: String
-    reportsTo: Engineer
+  id: ID
+  name: String
+  role: String
+  reportsTo: Engineer
 }
 
 input NewEngineerInput {
-    name: String!
-    role: String!
-    reportsTo: String!
+  name: String!
+  role: String!
+  reportsTo: String!
 }
 
-
 type Query {
-    engineer(id: ID!): Engineer!
-    engineers: [Engineer]!
+  engineer(id: ID!): Engineer
+  engineers: [Engineer]!
 }
 
 type Mutation {
-    newEngineer(input: NewEngineerInput!): Engineer!
+  newEngineer(input: NewEngineerInput!): Engineer!
 }
