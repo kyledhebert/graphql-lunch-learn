@@ -1,11 +1,8 @@
-import {schema as engineerSchema} from './engineer'
+import { schema as engineerSchema } from "./engineer";
 
 module.exports = {
-    typeDefs: [
-    engineerSchema.typeDefs,
-    ].join(' '),
-    resolvers: {...engineerSchema.resolvers},
-}
-
-
-
+  typeDefs: [engineerSchema.typeDefs].join(" "),
+  resolvers: {
+    ...engineerSchema.resolvers
+  }
+};
