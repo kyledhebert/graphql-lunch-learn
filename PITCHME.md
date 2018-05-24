@@ -3,7 +3,7 @@
 ---
 ## What is GraphQL?
  - A query language for APIs
- - A specification, not a library or language
+ - A specification, not a library
  - Developed by Facebook, and widely-adopted
 
 ---
