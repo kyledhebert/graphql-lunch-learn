@@ -111,13 +111,13 @@ export const resolvers = {
   },
 
   Engineer: {
-    // reportsTo: ({reportsTo}) => {
-    //     if (reportsTo) {
-    //         return findByNameLoader.load(reportsTo)
-    //     }
-    // },
-    reportsTo: async root => {
-      const result = await findBy("name", root.reportsTo);
+    // reportsTo: ({ reportsTo }) => {
+    //   if (reportsTo) {
+    //     return findByNameLoader.load(reportsTo);
+    //   }
+    // }
+    reportsTo: async ({ reportsTo }) => {
+      const result = await findBy("name", reportsTo);
       return result[0];
     }
   }
