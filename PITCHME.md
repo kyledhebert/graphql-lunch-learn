@@ -100,7 +100,7 @@ query {
  - `root`: the result of the previous resolver, and initially null 
  - `args`: the parameters for the query
  - `context`: an object passed through the resolver chain, primarily used for resolvers to communicate and share information
- - `info`: an AST representation of the query are mutation
+ - `info`: an AST representation of the query or mutation
 
 +++
 
